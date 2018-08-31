@@ -1,6 +1,8 @@
 ## Objective
 
-This project is an Ethereum private network playground with a dice guessing mini-game smart contract, to demonstrate setting up private Ethereum network, deploying smart contract on the network, finally interact with Ethereum smart contract with a simple web-based DAPP.
+This project is an Ethereum private network playground with a dice guessing mini-game smart contract, it also demonstrate setting up private Ethereum network, deploying smart contract on the network, finally interact with Ethereum smart contract with a simple web-based DAPP.
+
+The smart contract include an ERC223 standard token, a crowdsale which accept ETH and distribute the ERC223 token and a mini dice game in which players can bet with the ERC223 token they holding.
 
 ### Setup Ethereum private network (optional)
 

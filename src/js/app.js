@@ -150,7 +150,7 @@ App = {
       // guessInstance.winAmountOf(0, { from: web3.eth.defaultAccount })
       //   .then((winAmount) => console.log('winAmount of ' + 0 + ' round are ' + parseInt(winAmount)))
       guessInstance.prizePool({ from: web3.eth.defaultAccount })
-        .then(pool => $('#pool').text('Prize pool: ' + parseInt(pool) / ether + ' TBSx3'))
+        .then(pool => $('#pool').text('Prize pool: ' + parseInt(pool) / ether + ' DMC'))
 
       guessInstance.lastBetOf(web3.eth.defaultAccount, { from: web3.eth.defaultAccount })
         .then((bet) => {

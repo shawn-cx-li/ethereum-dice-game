@@ -3,7 +3,7 @@ const TokenERC223 = artifacts.require('./ERC223/TokenERC223');
 const Guess = artifacts.require('Guess')
 
 module.exports = function (deployer) {
-  deployer.deploy(TokenERC223, '10000', 'Demo coin', 'TBSx3')
+  deployer.deploy(TokenERC223, '10000', 'Demo coin', 'DMC')
     //   // Option 2) Console log the address:
     // .then(() => console.log(TokenERC20.address))
 
